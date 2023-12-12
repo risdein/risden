@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Cachorrinhos</title>
+</head>
+<body>
+    <h1>Fotos de Cachorros para alegrar o seu dia</h1>
+    <p>aqui temos fotos e informações sobre esses bicinhos lindos</p>
+    <ul>
+        <li><a
+href="#raças">Raças de cachorros</a></li>
+        <li><a
+href="#cuidados">Cuidados que devemos ter</a></li
+<li><a href="#contato">Contato</a></li>
+  </ul>
+  <hr>
+  <h2 id="raças">Raças de cachorrinhos</h2>
+  <p>Existem muitas raças de cachorrinhos, cada uma com suas características e personalidades. Aqui estão algumas das mais populares:</p>
+  <table border="1">
+    <tr>
+      <th>Raça</th>
+      <th>Descrição</th>
+      <th>Foto</th> 
+    <tr>
+      <td>Labrador</td>
+      <td>Um cachorro grande, amigável e inteligente, que gosta de brincar e nadar.</td>
+      <td><img src="labrador.jpg" width="200" height="150"></td>
+    </tr>
+    <tr>
+
+      <td>Poodle</td>
+      <td>Um cachorro pequeno, elegante e inteligente, que tem uma pelagem encaracolada e macia.</td>
+      <td><img src="poodle.jpg" width="200" height="150"></td>
+    </tr>
+    <tr>
+      <td>Beagle</td>
+      <td>Um cachorro médio, alegre e curioso, que tem um faro apurado e gosta de caçar.</td>
+      <td><img src="beagle.jpg" width="200" height="150"></td>
+    </tr>
+  </table>
+  <hr>
+  <h2 id="cuidados">Cuidados com os cachorrinhos</h2>
+  <p>Os cachorrinhos precisam de alguns cuidados básicos para serem felizes e saudáveis. Aqui estão algumas dicas:</p>
+  <ol>
+    <li>Alimente-os com ração de boa qualidade, adequada à sua idade e tamanho.</li>
+    <li>Dê-lhes água fresca e limpa todos os dias.</li>
+<li>Leve-os para passear e brincar regularmente, para exercitar seu corpo e mente.</li>
+    <li>Escove-os e banhe-os quando necessário, para manter sua pelagem limpa e bonita.</li>
+    <li>Leve-os ao veterinário periodicamente, para vacinar, vermifugar e prevenir doenças.</li>
+    <li>Dê-lhes muito amor, carinho e atenção, para fortalecer o vínculo entre vocês.</li>
+  </ol>
+  <hr>
+  <h2 id="contato">Contato</h2>
+  <p>Se você quiser entrar em contato comigo, por favor, preencha o formulário abaixo e eu responderei o mais rápido possível.</p>
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="5" cols="40"></textarea><br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
